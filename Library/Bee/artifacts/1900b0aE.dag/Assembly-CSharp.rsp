@@ -440,6 +440,7 @@
 "Assets/Scenes/Menu and death scene/Open game.cs"
 "Assets/Scenes/PlayerScripts/BoatMove.cs"
 "Assets/Scenes/PlayerScripts/playerMove.cs"
+"Assets/Scenes/SoundsScripts/PlaySounds.cs"
 "Assets/Scenes/WaterCollisoin.cs"
 "Assets/Scenes/WeaponsScripts/Pickup.cs"
 "Assets/Scenes/WeaponsScripts/PistolShooting.cs"

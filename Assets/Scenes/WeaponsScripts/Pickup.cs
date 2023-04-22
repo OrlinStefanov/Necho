@@ -18,6 +18,7 @@ public class Pickup : MonoBehaviour
 
     [Header("player")]
     public Animator playerAnimator;
+    public TextMeshPro task;
 
     [Header("Pistol")]
     public GameObject pistol_ground;
@@ -64,6 +65,8 @@ public class Pickup : MonoBehaviour
                 StartCoroutine(seconds());
 
                 playerAnimator.Play("Gathering");
+
+                task.text = "Task: Kill the seals";
 			}
 
 		} else
